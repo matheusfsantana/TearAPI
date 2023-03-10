@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uwMwjdvxoOdyL+4zJWsVQ71BhpyLM6KLestj36RneEcMIbeOpLD914IYojW5sGFjPk/9hu5cM9pBFPVoBqNriQ==",
+  "dgSpecHash": "NwTVk72qk2b8r1r9Gi8zb3gYqFxxRKF0ADDyrjvg2g3h3uSt4+zb56s7kvaLaZMgYifXhRDkrNgqBQv1/Q/bvg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\API\\LoomAPI\\LoomAPI\\LoomAPI.csproj",
+  "projectFilePath": "C:\\Projects\\API\\TearAPI\\LoomAPI\\LoomAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mathe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mathe\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LoomAPI.Models
 {
@@ -9,14 +10,18 @@ namespace LoomAPI.Models
 
         public string Eficiencia { get; set; }
 
-        public int QuebraDeUrdume { get; set; }
+        public List<Erro> Erros { get; set; }
 
-        public int QuebraDeTrama { get; set; }
+        public string TempoParado { get; set; }
 
-        public int FimDeTrama { get; set; }
-        public DateTime TempoLigado { get; set; }
+        public string TempoLigado { get; set; }
 
-        public DateTime TempoParado { get; set; }
+        public string TempoInicial { get; set; }
 
+        public string TempoFinal { get; set; }
+
+        public string TempoDecorrido { get; set; }
+
+        public string HoraDeLigacao { get; set; }
     }
 }

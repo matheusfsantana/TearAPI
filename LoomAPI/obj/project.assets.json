@@ -8002,11 +8002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\API\\LoomAPI\\LoomAPI\\LoomAPI.csproj",
+      "projectUniqueName": "C:\\Projects\\API\\TearAPI\\LoomAPI\\LoomAPI.csproj",
       "projectName": "LoomAPI",
-      "projectPath": "C:\\Projects\\API\\LoomAPI\\LoomAPI\\LoomAPI.csproj",
+      "projectPath": "C:\\Projects\\API\\TearAPI\\LoomAPI\\LoomAPI.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\API\\LoomAPI\\LoomAPI\\obj\\",
+      "outputPath": "C:\\Projects\\API\\TearAPI\\LoomAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",

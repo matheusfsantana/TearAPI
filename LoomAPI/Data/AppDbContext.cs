@@ -9,5 +9,6 @@ namespace LoomAPI.Data
         { }
 
         public DbSet<Tear> Teares { get; set; }
+        public DbSet<Erro> Erros { get; set; }
     }
 }

@@ -1,0 +1,49 @@
+﻿@model LoomAPI.Models.Erro
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Erro</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="QuantidadeParadas" class="control-label"></label>
+                <input asp-for="QuantidadeParadas" class="form-control" />
+                <span asp-validation-for="QuantidadeParadas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TempoParadas" class="control-label"></label>
+                <input asp-for="TempoParadas" class="form-control" />
+                <span asp-validation-for="TempoParadas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PerdaEficienciaParadas" class="control-label"></label>
+                <input asp-for="PerdaEficienciaParadas" class="form-control" />
+                <span asp-validation-for="PerdaEficienciaParadas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TempoMedio" class="control-label"></label>
+                <input asp-for="TempoMedio" class="form-control" />
+                <span asp-validation-for="TempoMedio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

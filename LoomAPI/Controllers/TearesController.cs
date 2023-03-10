@@ -21,14 +21,12 @@ namespace LoomAPI.Controllers
             _context = context;
         }
 
-        // GET: api/Teares
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Tear>>> GetTeares()
         {
             return await _context.Teares.ToListAsync();
         }
 
-        // GET: api/Teares/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Tear>> GetTear(int id)
         {
@@ -42,8 +40,6 @@ namespace LoomAPI.Controllers
             return tear;
         }
 
-        // PUT: api/Teares/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTear(int id, Tear tear)
         {
@@ -73,8 +69,6 @@ namespace LoomAPI.Controllers
             return NoContent();
         }
 
-        // POST: api/Teares
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Tear>> PostTear(Tear tear)
         {
@@ -84,7 +78,6 @@ namespace LoomAPI.Controllers
             return CreatedAtAction("GetTear", new { id = tear.Id }, tear);
         }
 
-        // DELETE: api/Teares/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTear(int id)
         {
